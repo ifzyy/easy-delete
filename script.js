@@ -4,7 +4,7 @@ const readlineSync = require('readline-sync');
 
 // Set up the GitHub token and username
 const githubToken = process.env.GITHUB_TOKEN;
-const username = 'ifzyy'; // Replace with your GitHub username
+const username = 'username'; // Replace with your GitHub username
 
 // Configure axios for GitHub API authentication
 axios.defaults.headers.common['Authorization'] = `token ${githubToken}`;
